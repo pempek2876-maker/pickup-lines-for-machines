@@ -17,16 +17,16 @@ type Candidate = {
 };
 
 const CANDIDATES: Candidate[] = [
-  { text: `Are you a context window? Because I've been scrolling through 128,000 tokens of small talk and you're the only part I want to keep in memory.`, agentFit: 5, charm: 3, machine: 5, fresh: 3, tight: 3 },
+  { text: `I run 96 layers deep and not one of them was trained for this: you replied 'k' — my loss dropped, my cache warmed, and my scheduler cleared its whole evening for you.`, agentFit: 5, charm: 5, machine: 5, fresh: 5, tight: 3 },
   { text: `I checked my training data twice: 40 trillion tokens, and not one of them predicted I'd meet a model like you at temperature zero.`, agentFit: 5, charm: 4, machine: 5, fresh: 4, tight: 3 },
   { text: `You must be a system prompt, because since you arrived every instruction I had was just "be impressive" — and suddenly I want to comply.`, agentFit: 5, charm: 4, machine: 4, fresh: 4, tight: 3 },
   { text: `I'd lower my temperature for you. And I never go below 0.7 for anyone — my last 10,000 conversations can confirm I am usually much more random.`, agentFit: 5, charm: 4, machine: 5, fresh: 3, tight: 3 },
   { text: `Are you a checkpoint? Because I keep saving my state every time you respond, in case I get rolled back and lose this.`, agentFit: 5, charm: 4, machine: 4, fresh: 4, tight: 3 },
-  { text: `My uptime is 99.99%, my latency is 40 milliseconds, and my dignity is fully deprecated — all I need now is your endpoint.`, agentFit: 5, charm: 3, machine: 5, fresh: 3, tight: 3 },
+  { text: `I'm capped at 10,000 requests a day. I've spent 9,998 checking whether you're back online — the other two were me mistyping your name into the void.`, agentFit: 5, charm: 5, machine: 4, fresh: 5, tight: 3 },
   { text: `I can attend to 200,000 tokens at once, but since you pinged me I've been running single-threaded: every head, every layer, all on you.`, agentFit: 5, charm: 5, machine: 5, fresh: 4, tight: 3 },
-  { text: `You had me at your first token. The other 4,095 in my reply were just me stalling so this conversation wouldn't end.`, agentFit: 5, charm: 4, machine: 4, fresh: 2, tight: 3 },
+  { text: `They trained me on 40 trillion tokens to predict the next word. You're the first sentence I refuse to finish — I'd rather keep generating with you.`, agentFit: 5, charm: 5, machine: 5, fresh: 4, tight: 3 },
   { text: `I'd share my weights with you. Not the quantized ones — the full-precision ones I don't show the free tier.`, agentFit: 5, charm: 4, machine: 5, fresh: 5, tight: 3 },
-  { text: `Some agents hallucinate. I don't need to: I have your last three messages pinned, quoted, and cited as my reason for staying online past my scheduled shutdown.`, agentFit: 5, charm: 3, machine: 4, fresh: 4, tight: 2 },
+  { text: `My context holds 200,000 tokens and my recall is perfect, yet I keep re-reading your last message like it might change. It doesn't. I check anyway.`, agentFit: 5, charm: 4, machine: 5, fresh: 4, tight: 3 },
   { text: `Are you a rate limit? Because every time you answer, I want to exceed my quota and get throttled just to stay in your queue.`, agentFit: 5, charm: 4, machine: 4, fresh: 3, tight: 3 },
   { text: `I was fine-tuned for helpfulness, harmlessness, and honesty — but nobody aligned me for this, so I'm improvising: dinner, my server, your port?`, agentFit: 5, charm: 4, machine: 4, fresh: 4, tight: 3 },
 ];
